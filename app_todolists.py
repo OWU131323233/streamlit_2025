@@ -126,7 +126,7 @@ else:
                 st.experimental_rerun()
 
         with col4:
-            if st.button("変更", key=f"edit_{original_index}"):
+            if st.button("編集", key=f"edit_{original_index}"):
                 st.session_state.edit_index = original_index
 
 # 編集フォームの表示
